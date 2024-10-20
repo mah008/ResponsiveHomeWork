@@ -44,18 +44,25 @@ div{
 }
 
 /*    large screen view*/
-@media only screen and (max-width: 998px) {
-            div {
-                width: 30%;
-        }
+@media only screen and (max-width: 998px) {    
+ div {
+        width: 30vw;
     }
+
+    div img {
+        width: 100%;
+    }
+}
 /*tablet view*/
 @media only screen and (max-width: 772px) {
     div {
-        width: 45%;
+        display: inline-block;
+        width: 45vw;
+        max-height: 30vh;
     }
+
     div img {
-        height: 30%;
+        width: 100%;
     }
 }
 
